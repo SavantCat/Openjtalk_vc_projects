@@ -1,25 +1,9 @@
-﻿2014/06/08 22:19:28 にビルドを開始しました。
-     1>ノード 4 上のプロジェクト "C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\njd2jpcommon\njd2jpcommon.vcxproj" (Rebuild ターゲット)。
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D ASCII_HEADER /D CHARSET_SHIFT_JIS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\njd2jpcommon.c
-         njd2jpcommon.c
-     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\njd2jpcommon\src\njd2jpcommon.c(95): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' の宣言を確認してください。
-     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\njd2jpcommon\src\njd2jpcommon.c(102): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' の宣言を確認してください。
-     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\njd2jpcommon\src\njd2jpcommon.c(111): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' の宣言を確認してください。
-     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\njd2jpcommon\src\njd2jpcommon.c(118): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' の宣言を確認してください。
-     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\njd2jpcommon\src\njd2jpcommon.c(127): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' の宣言を確認してください。
-     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\njd2jpcommon\src\njd2jpcommon.c(134): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' の宣言を確認してください。
-       Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\njd2jpcommon.lib" /NOLOGO Debug\njd2jpcommon.obj
-         njd2jpcommon.vcxproj -> C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\njd2jpcommon.lib
-     1>プロジェクト "C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\njd2jpcommon\njd2jpcommon.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
+﻿2014/06/08 23:30:42 にビルドを開始しました。
+     1>ノード 4 上のプロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\njd2jpcommon\njd2jpcommon.vcxproj" (Build ターゲット)。
+     1>Lib:
+         njd2jpcommon.vcxproj -> G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\njd2jpcommon.lib
+     1>プロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\njd2jpcommon\njd2jpcommon.vcxproj" (Build ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:00.68
+経過時間 00:00:00.04

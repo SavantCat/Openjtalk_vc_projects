@@ -1,17 +1,9 @@
-﻿2014/06/08 22:19:27 にビルドを開始しました。
-     1>ノード 2 上のプロジェクト "C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\njd_set_long_vowel\njd_set_long_vowel.vcxproj" (Rebuild ターゲット)。
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D ASCII_HEADER /D CHARSET_SHIFT_JIS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\njd_set_long_vowel.c
-         njd_set_long_vowel.c
-     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\njd_set_long_vowel\src\njd_set_long_vowel.c(139): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' の宣言を確認してください。
-     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\njd_set_long_vowel\src\njd_set_long_vowel.c(146): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(186) : 'strncat' の宣言を確認してください。
-       Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\njd_set_long_vowel.lib" /NOLOGO Debug\njd_set_long_vowel.obj
-         njd_set_long_vowel.vcxproj -> C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\njd_set_long_vowel.lib
-     1>プロジェクト "C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\njd_set_long_vowel\njd_set_long_vowel.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
+﻿2014/06/08 23:30:42 にビルドを開始しました。
+     1>ノード 9 上のプロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\njd_set_long_vowel\njd_set_long_vowel.vcxproj" (Build ターゲット)。
+     1>Lib:
+         njd_set_long_vowel.vcxproj -> G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\njd_set_long_vowel.lib
+     1>プロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\njd_set_long_vowel\njd_set_long_vowel.vcxproj" (Build ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:00.79
+経過時間 00:00:00.20

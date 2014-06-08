@@ -1,13 +1,9 @@
-﻿2014/06/08 22:19:29 にビルドを開始しました。
-     1>ノード 5 上のプロジェクト "C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\text2mecab\text2mecab.vcxproj" (Rebuild ターゲット)。
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D ASCII_HEADER /D CHARSET_SHIFT_JIS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\text2mecab.c
-         text2mecab.c
-       Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\text2mecab.lib" /NOLOGO Debug\text2mecab.obj
-         text2mecab.vcxproj -> C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\text2mecab.lib
-     1>プロジェクト "C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\text2mecab\text2mecab.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
+﻿2014/06/08 23:30:42 にビルドを開始しました。
+     1>ノード 5 上のプロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\text2mecab\text2mecab.vcxproj" (Build ターゲット)。
+     1>Lib:
+         text2mecab.vcxproj -> G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\text2mecab.lib
+     1>プロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\text2mecab\text2mecab.vcxproj" (Build ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:00.52
+経過時間 00:00:00.05

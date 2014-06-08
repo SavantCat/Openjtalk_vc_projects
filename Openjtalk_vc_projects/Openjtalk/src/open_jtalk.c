@@ -435,7 +435,7 @@ int main(int argc, char **argv)
          }
       } else {
          txtfn = argv[argc-1];
-         txtfp = fopen("test.txt", "r");
+		 txtfp = fopen(txtfn, "r");
       }
    }
 
