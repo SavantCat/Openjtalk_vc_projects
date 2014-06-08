@@ -1,0 +1,1 @@
+Openjtalk.exe -x ./dic -m ./voice/mei_happy.htsvoice -s 48000 -ow voice.wav text.txt
