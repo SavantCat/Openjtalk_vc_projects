@@ -1,0 +1,98 @@
+﻿2014/06/08 22:19:24 にビルドを開始しました。
+     1>ノード 4 上のプロジェクト "C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\jpcommon\jpcommon.vcxproj" (Rebuild ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D CHARSET_SHIFT_JIS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\jpcommon.c src\jpcommon_label.c src\jpcommon_node.c
+         jpcommon_node.c
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_node.c(76): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 'strdup' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_node.c(83): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 'strdup' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_node.c(90): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 'strdup' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_node.c(97): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 'strdup' の宣言を確認してください。
+         jpcommon_label.c
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(115): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 'strdup' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(128): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 'strdup' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(148): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 'strdup' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(168): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 'strdup' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(181): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 'strdup' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(194): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 'strdup' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(207): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 'strdup' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(231): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 'strdup' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(456): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 'strdup' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(459): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : 'strdup' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(685): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(688): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(696): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(708): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(710): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(713): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(716): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(727): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(729): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(738): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(743): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(745): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(749): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(756): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(766): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(776): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(781): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(783): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(787): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(796): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(800): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(807): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(821): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(831): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(835): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\jpcommon\src\jpcommon_label.c(840): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+         jpcommon.c
+         コードを生成中...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\jpcommon.lib" /NOLOGO Debug\jpcommon.obj
+         Debug\jpcommon_label.obj
+         Debug\jpcommon_node.obj
+         jpcommon.vcxproj -> C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\jpcommon.lib
+     1>プロジェクト "C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\jpcommon\jpcommon.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:00.94
