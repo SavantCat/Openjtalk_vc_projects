@@ -1,0 +1,26 @@
+﻿2014/10/30 17:51:42 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "G:\GitHub\Openjtalk_vc_projects\node_module\build\nodejtalk.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\K.Hotta\.node-gyp\0.10.28\src" /I"C:\Users\K.Hotta\.node-gyp\0.10.28\deps\uv\include" /I"C:\Users\K.Hotta\.node-gyp\0.10.28\deps\v8\include" /Zi /nologo /W3 /WX- /Ox /Ob2 /Oi /Ot /Oy /GL /D WIN32 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D BUILDING_V8_SHARED=1 /D BUILDING_UV_SHARED=1 /D BUILDING_NODE_EXTENSION /D _WINDLL /GF /Gm- /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Release\obj\nodejtalk\\" /Fd"Release\obj\nodejtalk\vc120.pdb" /Gd /TP /wd4251 /errorReport:prompt /MP ..\nodejtalk.cc
+         nodejtalk.cc
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Release\nodejtalk.node" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib DelayImp.lib "C:\Users\K.Hotta\.node-gyp\0.10.28\Release\node.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Release\nodejtalk.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 /DLL Release\obj\nodejtalk\nodejtalk.obj
+         G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Release\hts_engine_API.lib
+         G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Release\jpcommon.lib
+         G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Release\mecab2njd.lib
+         G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Release\mecab.lib
+         G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Release\njd2jpcommon.lib
+         G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Release\njd.lib
+         G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Release\njd_set_accent_phrase.lib
+         G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Release\njd_set_accent_type.lib
+         G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Release\njd_set_digit.lib
+         G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Release\njd_set_long_vowel.lib
+         G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Release\njd_set_pronunciation.lib
+         G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Release\njd_set_unvoiced_vowel.lib
+         G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Release\text2mecab.lib
+     1>LINK : fatal error LNK1181: 入力ファイル 'G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Release\hts_engine_API.lib' を開けません。
+     1>プロジェクト "G:\GitHub\Openjtalk_vc_projects\node_module\build\nodejtalk.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:00.98

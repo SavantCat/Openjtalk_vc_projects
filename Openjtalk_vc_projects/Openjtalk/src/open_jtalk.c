@@ -447,6 +447,8 @@ int main(int argc, char **argv)
       exit(1);
    }
 
+
+
    /* free memory */
    Open_JTalk_clear(&open_jtalk);
 

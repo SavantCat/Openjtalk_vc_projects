@@ -1,9 +1,13 @@
-﻿2014/06/08 23:30:41 にビルドを開始しました。
-     1>ノード 4 上のプロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\mecab2njd\mecab2njd.vcxproj" (Build ターゲット)。
-     1>Lib:
+﻿2014/10/30 19:34:02 にビルドを開始しました。
+     1>ノード 3 上のプロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\mecab2njd\mecab2njd.vcxproj" (Rebuild ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\mecab2njd.c
+         mecab2njd.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\mecab2njd.lib" /NOLOGO Debug\mecab2njd.obj
          mecab2njd.vcxproj -> G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\mecab2njd.lib
-     1>プロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\mecab2njd\mecab2njd.vcxproj" (Build ターゲット) のビルドが完了しました。
+     1>プロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\mecab2njd\mecab2njd.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:00.25
+経過時間 00:00:00.45

@@ -1,0 +1,11 @@
+﻿2014/10/30 18:37:37 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\njd_set_pronunciation\njd_set_pronunciation.vcxproj" (Rebuild ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\njd_set_pronunciation.c
+         njd_set_pronunciation.c
+     1>src\njd_set_pronunciation.c(58): fatal error C1083: include ファイルを開けません。'njd.h':No such file or directory
+     1>プロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\njd_set_pronunciation\njd_set_pronunciation.vcxproj" (Rebuild ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:00.17

@@ -1,9 +1,13 @@
-﻿2014/06/08 23:30:42 にビルドを開始しました。
-     1>ノード 6 上のプロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\njd_set_accent_phrase\njd_set_accent_phrase.vcxproj" (Build ターゲット)。
-     1>Lib:
+﻿2014/10/30 19:34:02 にビルドを開始しました。
+     1>ノード 5 上のプロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\njd_set_accent_phrase\njd_set_accent_phrase.vcxproj" (Rebuild ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D ASCII_HEADER /D CHARSET_SHIFT_JIS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\njd_set_accent_phrase.c
+         njd_set_accent_phrase.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\njd_set_accent_phrase.lib" /NOLOGO Debug\njd_set_accent_phrase.obj
          njd_set_accent_phrase.vcxproj -> G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\njd_set_accent_phrase.lib
-     1>プロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\njd_set_accent_phrase\njd_set_accent_phrase.vcxproj" (Build ターゲット) のビルドが完了しました。
+     1>プロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\njd_set_accent_phrase\njd_set_accent_phrase.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:00.14
+経過時間 00:00:00.49

@@ -1,0 +1,43 @@
+﻿2014/10/30 18:37:38 にビルドを開始しました。
+     1>ノード 7 上のプロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\hts_engine_API\hts_engine_API.vcxproj" (Rebuild ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\HTS_audio.c src\hts_engine.c src\HTS_gstream.c src\HTS_label.c src\HTS_misc.c src\HTS_model.c src\HTS_pstream.c src\HTS_sstream.c src\HTS_vocoder.c
+         HTS_audio.c
+         hts_engine.c
+         HTS_gstream.c
+         HTS_label.c
+         HTS_misc.c
+     1>src\HTS_misc.c(86): warning C4133: '関数' : 'void **' と 'FILE **' の間で型に互換性がありません。
+     1>src\HTS_misc.c(86): warning C4047: '=' : 間接参照のレベルが 'errno_t' と 'void *' で異なっています。
+     1>src\HTS_misc.c(552): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         HTS_model.c
+         HTS_pstream.c
+         HTS_sstream.c
+         HTS_vocoder.c
+     1>src\HTS_vocoder.c(266): warning C4018: '>' : signed と unsigned の数値を比較しようとしました。
+     1>src\HTS_vocoder.c(313): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\HTS_vocoder.c(379): warning C4018: '>' : signed と unsigned の数値を比較しようとしました。
+     1>src\HTS_vocoder.c(459): warning C4018: '>' : signed と unsigned の数値を比較しようとしました。
+     1>src\HTS_vocoder.c(759): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\HTS_vocoder.c(894): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+     1>src\HTS_vocoder.c(904): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+     1>src\HTS_vocoder.c(912): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+     1>src\HTS_vocoder.c(914): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+     1>src\HTS_vocoder.c(918): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\HTS_vocoder.c(944): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Release\hts_engine_API.lib" /NOLOGO /LTCG Release\HTS_audio.obj
+         Release\hts_engine.obj
+         Release\HTS_gstream.obj
+         Release\HTS_label.obj
+         Release\HTS_misc.obj
+         Release\HTS_model.obj
+         Release\HTS_pstream.obj
+         Release\HTS_sstream.obj
+         Release\HTS_vocoder.obj
+         hts_engine_API.vcxproj -> G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Release\hts_engine_API.lib
+     1>プロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\hts_engine_API\hts_engine_API.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:01.20

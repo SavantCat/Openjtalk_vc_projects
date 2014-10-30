@@ -1,0 +1,275 @@
+﻿2014/10/30 18:37:37 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\mecab\mecab.vcxproj" (Rebuild ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\char_property.cpp src\connector.cpp src\context_id.cpp src\dictionary.cpp src\dictionary_compiler.cpp src\dictionary_generator.cpp src\dictionary_rewriter.cpp src\eval.cpp src\feature_index.cpp src\iconv_utils.cpp src\lbfgs.cpp src\learner.cpp src\learner_tagger.cpp src\libmecab.cpp "src\mecab-dict-index.cpp" src\mecab.cpp src\nbest_generator.cpp src\param.cpp src\string_buffer.cpp src\tagger.cpp src\tokenizer.cpp src\utils.cpp src\viterbi.cpp src\writer.cpp
+         char_property.cpp
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\utils.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\mmap.h(74): error C2146: 構文エラー : ';' が、識別子 'hFile' の前に必要です。
+                 g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\mmap.h(221) : コンパイルされたクラスの テンプレート のインスタンス化 'MeCab::Mmap<T>' の参照を確認してください
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\mmap.h(74): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\mmap.h(75): error C2146: 構文エラー : ';' が、識別子 'hMap' の前に必要です。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\mmap.h(75): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\char_property.h(22): warning C4800: 'const unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+         connector.cpp
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\utils.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+         context_id.cpp
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\utils.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+         dictionary.cpp
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\utils.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\char_property.h(22): warning C4800: 'const unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>src\dictionary.cpp(416): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\darts.h(189): warning C4146: 符号付きの値を代入する変数は、符号付き型にキャストしなければなりません。
+                 g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\darts.h(129): クラス テンプレート のメンバー関数 'size_t MeCab::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int,MeCab::Darts::Length<char>>::insert(const std::vector<MeCab::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int,MeCab::Darts::Length<char>>::node_t,std::allocator<_Ty>> &)' のコンパイル中
+                 with
+                 [
+                     _Ty=MeCab::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int,MeCab::Darts::Length<char>>::node_t
+                 ]
+                 g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\darts.h(292) : コンパイルされたクラスの テンプレート のインスタンス化 'size_t MeCab::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int,MeCab::Darts::Length<char>>::insert(const std::vector<MeCab::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int,MeCab::Darts::Length<char>>::node_t,std::allocator<_Ty>> &)' の参照を確認してください
+                 with
+                 [
+                     _Ty=MeCab::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int,MeCab::Darts::Length<char>>::node_t
+                 ]
+                 g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\dictionary.h(29) : コンパイルされたクラスの テンプレート のインスタンス化 'MeCab::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int,MeCab::Darts::Length<char>>' の参照を確認してください
+         dictionary_compiler.cpp
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\utils.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\mmap.h(74): error C2146: 構文エラー : ';' が、識別子 'hFile' の前に必要です。
+                 g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\mmap.h(221) : コンパイルされたクラスの テンプレート のインスタンス化 'MeCab::Mmap<T>' の参照を確認してください
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\mmap.h(74): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\mmap.h(75): error C2146: 構文エラー : ';' が、識別子 'hMap' の前に必要です。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\mmap.h(75): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\char_property.h(22): warning C4800: 'const unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+         dictionary_generator.cpp
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\utils.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\mmap.h(74): error C2146: 構文エラー : ';' が、識別子 'hFile' の前に必要です。
+                 g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\mmap.h(221) : コンパイルされたクラスの テンプレート のインスタンス化 'MeCab::Mmap<T>' の参照を確認してください
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\mmap.h(74): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\mmap.h(75): error C2146: 構文エラー : ';' が、識別子 'hMap' の前に必要です。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\mmap.h(75): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\char_property.h(22): warning C4800: 'const unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+         dictionary_rewriter.cpp
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\utils.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>src\dictionary_rewriter.cpp(47): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' の宣言を確認してください。
+     1>src\dictionary_rewriter.cpp(67): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' の宣言を確認してください。
+     1>src\dictionary_rewriter.cpp(70): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' の宣言を確認してください。
+     1>src\dictionary_rewriter.cpp(169): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' の宣言を確認してください。
+     1>src\dictionary_rewriter.cpp(233): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' の宣言を確認してください。
+         eval.cpp
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\utils.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>src\eval.cpp(63): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' の宣言を確認してください。
+     1>src\eval.cpp(84): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>src\eval.cpp(104): warning C4305: 'return' : 'int' から 'bool' へ切り詰めます。
+     1>src\eval.cpp(113): warning C4305: 'return' : 'int' から 'bool' へ切り詰めます。
+         feature_index.cpp
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\utils.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>src\feature_index.cpp(222): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' の宣言を確認してください。
+     1>src\feature_index.cpp(337): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' の宣言を確認してください。
+     1>src\feature_index.cpp(385): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' の宣言を確認してください。
+     1>src\feature_index.cpp(386): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' の宣言を確認してください。
+     1>src\feature_index.cpp(592): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' の宣言を確認してください。
+         iconv_utils.cpp
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\utils.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\mmap.h(74): error C2146: 構文エラー : ';' が、識別子 'hFile' の前に必要です。
+                 g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\mmap.h(221) : コンパイルされたクラスの テンプレート のインスタンス化 'MeCab::Mmap<T>' の参照を確認してください
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\mmap.h(74): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\mmap.h(75): error C2146: 構文エラー : ';' が、識別子 'hMap' の前に必要です。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\mmap.h(75): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\char_property.h(22): warning C4800: 'const unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+         lbfgs.cpp
+         learner.cpp
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\utils.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\char_property.h(22): warning C4800: 'const unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>src\learner.cpp(301): warning C4305: 'return' : 'int' から 'bool' へ切り詰めます。
+     1>src\learner.cpp(308): warning C4800: 'int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+         learner_tagger.cpp
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\utils.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\char_property.h(22): warning C4800: 'const unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>src\learner_tagger.cpp(21): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' の宣言を確認してください。
+         libmecab.cpp
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\utils.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\char_property.h(22): warning C4800: 'const unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>src\libmecab.cpp(139): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' の宣言を確認してください。
+     1>src\libmecab.cpp(186): warning C4800: 'int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>src\libmecab.cpp(211): warning C4800: 'int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>src\libmecab.cpp(380): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         mecab-dict-index.cpp
+         mecab.cpp
+     1>src\mecab.cpp(88): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(245) : 'strdup' の宣言を確認してください。
+     1>src\mecab.cpp(89): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(245) : 'strdup' の宣言を確認してください。
+     1>src\mecab.cpp(90): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(245) : 'strdup' の宣言を確認してください。
+     1>src\mecab.cpp(126): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>src\mecab.cpp(127): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(186) : 'strncat' の宣言を確認してください。
+     1>src\mecab.cpp(128): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 'strcat' の宣言を確認してください。
+     1>src\mecab.cpp(129): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : 'strcat' の宣言を確認してください。
+         nbest_generator.cpp
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\utils.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+         param.cpp
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\utils.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>src\param.cpp(259): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' の宣言を確認してください。
+         string_buffer.cpp
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\utils.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+         tagger.cpp
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\utils.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\char_property.h(22): warning C4800: 'const unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>src\tagger.cpp(211): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\tagger.cpp(262): warning C4244: 'return' : 'const double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\tagger.cpp(271): warning C4800: 'const int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>src\tagger.cpp(420): warning C4244: '引数' : 'const double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\tagger.cpp(495): warning C4800: 'int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>src\tagger.cpp(503): warning C4244: 'return' : 'const double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\tagger.cpp(538): warning C4800: 'int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>src\tagger.cpp(1127): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\tokenizer.h(51): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' の宣言を確認してください。
+                 g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\tokenizer.h(49): クラス テンプレート のメンバー関数 'char *MeCab::Allocator<MeCab::Node,MeCab::Path>::strdup(const char *,size_t)' のコンパイル中
+                 src\tagger.cpp(757) : コンパイルされたクラスの テンプレート のインスタンス化 'char *MeCab::Allocator<MeCab::Node,MeCab::Path>::strdup(const char *,size_t)' の参照を確認してください
+                 src\tagger.cpp(285) : コンパイルされたクラスの テンプレート のインスタンス化 'MeCab::Allocator<MeCab::Node,MeCab::Path>' の参照を確認してください
+         コンパイル中...
+         tokenizer.cpp
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\utils.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\char_property.h(22): warning C4800: 'const unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>src\tokenizer.cpp(120): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' の宣言を確認してください。
+                 src\tokenizer.cpp(94): クラス テンプレート のメンバー関数 'bool MeCab::Tokenizer<MeCab::Node,MeCab::Path>::open(const MeCab::Param &)' のコンパイル中
+                 src\tokenizer.cpp(40) : コンパイルされたクラスの テンプレート のインスタンス化 'MeCab::Tokenizer<MeCab::Node,MeCab::Path>' の参照を確認してください
+         utils.cpp
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\utils.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+         viterbi.cpp
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\utils.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\char_property.h(22): warning C4800: 'const unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>src\viterbi.cpp(28): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\viterbi.cpp(37): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\viterbi.cpp(47): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' の宣言を確認してください。
+     1>src\viterbi.cpp(48): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' の宣言を確認してください。
+     1>src\viterbi.cpp(170): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\viterbi.cpp(174): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\viterbi.cpp(238): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' の宣言を確認してください。
+         writer.cpp
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\utils.h(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' の宣言を確認してください。
+     1>src\writer.cpp(143): warning C4305: '初期化中' : 'double' から 'const float' へ切り詰めます。
+     1>src\writer.cpp(352): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' の宣言を確認してください。
+     1>プロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\mecab\mecab.vcxproj" (Rebuild ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:13.56
