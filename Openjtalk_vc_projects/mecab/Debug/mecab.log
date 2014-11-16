@@ -1,7 +1,7 @@
-﻿2014/10/30 19:34:02 にビルドを開始しました。
-     1>ノード 2 上のプロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\mecab\mecab.vcxproj" (Rebuild ターゲット)。
+﻿2014/11/02 20:33:11 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\mecab\mecab.vcxproj" (Build ターゲット)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D CHARSET_SHIFT_JIS /D HAVE_WINDOWS_H /D HAVE_SYS_TYPES_H /D HAVE_FCNTL_H /D HAVE_SYS_STAT_H /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\char_property.cpp src\connector.cpp src\context_id.cpp src\dictionary.cpp src\dictionary_compiler.cpp src\dictionary_generator.cpp src\dictionary_rewriter.cpp src\eval.cpp src\feature_index.cpp src\iconv_utils.cpp src\lbfgs.cpp src\learner.cpp src\learner_tagger.cpp src\libmecab.cpp "src\mecab-dict-index.cpp" src\mecab.cpp src\nbest_generator.cpp src\param.cpp src\string_buffer.cpp src\tagger.cpp src\tokenizer.cpp src\utils.cpp src\viterbi.cpp src\writer.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D CHARSET_SHIFT_JIS /D HAVE_WINDOWS_H /D HAVE_SYS_TYPES_H /D HAVE_FCNTL_H /D HAVE_SYS_STAT_H /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\char_property.cpp src\connector.cpp src\context_id.cpp src\dictionary.cpp src\dictionary_compiler.cpp src\dictionary_generator.cpp src\dictionary_rewriter.cpp src\eval.cpp src\feature_index.cpp src\iconv_utils.cpp src\lbfgs.cpp src\learner.cpp src\learner_tagger.cpp src\libmecab.cpp "src\mecab-dict-index.cpp" src\mecab.cpp src\nbest_generator.cpp src\param.cpp src\string_buffer.cpp src\tagger.cpp src\tokenizer.cpp src\utils.cpp src\viterbi.cpp src\writer.cpp
          writer.cpp
      1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\mecab\src\scoped_ptr.h(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' の宣言を確認してください。
@@ -304,8 +304,8 @@
          Debug\viterbi.obj
          Debug\writer.obj
          mecab.vcxproj -> G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\mecab.lib
-     1>プロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\mecab\mecab.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
+     1>プロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\mecab\mecab.vcxproj" (Build ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:18.45
+経過時間 00:00:19.16

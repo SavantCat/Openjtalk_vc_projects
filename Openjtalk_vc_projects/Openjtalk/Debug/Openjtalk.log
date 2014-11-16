@@ -1,7 +1,7 @@
-﻿2014/10/30 19:56:23 にビルドを開始しました。
-     1>ノード 2 上のプロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Openjtalk\Openjtalk.vcxproj" (Build ターゲット)。
+﻿2014/11/02 20:33:30 にビルドを開始しました。
+     1>ノード 7 上のプロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Openjtalk\Openjtalk.vcxproj" (Build ターゲット)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\open_jtalk.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\open_jtalk.c
          open_jtalk.c
      1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\openjtalk\src\open_jtalk.c(316): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
      1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\openjtalk\src\open_jtalk.c(328): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
@@ -31,4 +31,4 @@
 
 ビルドに成功しました。
 
-経過時間 00:00:01.99
+経過時間 00:00:01.89

@@ -1,11 +1,13 @@
-﻿2014/10/30 23:48:29 にビルドを開始しました。
-     1>ノード 2 上のプロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\node_module\build\nodejtalk.vcxproj" (Build ターゲット)。
+﻿2014/11/02 20:33:30 にビルドを開始しました。
+     1>ノード 8 上のプロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\node_module\build\nodejtalk.vcxproj" (Build ターゲット)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\K.Hotta\.node-gyp\0.10.28\src" /I"C:\Users\K.Hotta\.node-gyp\0.10.28\deps\uv\include" /I"C:\Users\K.Hotta\.node-gyp\0.10.28\deps\v8\include" /Zi /nologo /W1 /WX- /O2 /Ob2 /Oi /Ot /Oy /GL /D _WINDLL /D WIN32 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D BUILDING_V8_SHARED=1 /D BUILDING_UV_SHARED=1 /D BUILDING_NODE_EXTENSION /D _WINDLL /GF /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\obj\nodejtalk\\" /Fd"Debug\obj\nodejtalk\vc120.pdb" /Gd /TP /wd4251 /analyze- /errorReport:prompt ..\nodejtalk.cc
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\0.10.28\src /I..\0.10.28\deps\uv\include /I..\0.10.28\deps\v8\include /Zi /nologo /W1 /WX- /O2 /Ob2 /Oi /Ot /Oy /GL /D _WINDLL /D WIN32 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D BUILDING_V8_SHARED=1 /D BUILDING_UV_SHARED=1 /D BUILDING_NODE_EXTENSION /D _WINDLL /GF /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\obj\nodejtalk\\" /Fd"Debug\obj\nodejtalk\vc120.pdb" /Gd /TP /wd4251 /analyze- /errorReport:prompt ..\nodejtalk.cc
          nodejtalk.cc
+     1>..\nodejtalk.cc(21): warning C4005: 'MAXCHAR' : マクロが再定義されました。
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(1093) : 'MAXCHAR' の前の定義を確認してください
      1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocnum(155): warning C4506: インライン関数 'v8::Persistent<v8::Object> v8::Persistent<v8::Object>::New(v8::Handle<v8::Object>)' は定義されていません。
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\nodejtalk.node" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib DelayImp.lib "C:\Users\K.Hotta\.node-gyp\0.10.28\ia32\node.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\nodejtalk.pdb" /OPT:REF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH /DLL Debug\obj\nodejtalk\nodejtalk.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\nodejtalk.node" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib DelayImp.lib ..\0.10.28\ia32\node.lib icuuc.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\nodejtalk.pdb" /OPT:REF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH /DLL Debug\obj\nodejtalk\nodejtalk.obj
          G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\hts_engine_API.lib
          G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\jpcommon.lib
          G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\mecab2njd.lib
@@ -28,4 +30,4 @@
 
 ビルドに成功しました。
 
-経過時間 00:00:01.77
+経過時間 00:00:02.21

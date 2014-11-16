@@ -84,6 +84,9 @@ public:
 	FILE *wavfp = NULL;
 	FILE *outfp = NULL;
 
+	/*Binay Buffer*/
+	char *buffer;
+
 	/* dictionary directory */
 	char *dn_dict = NULL;
 
@@ -119,6 +122,7 @@ openjtalk::~openjtalk()
 {
 	/* free memory */
 	Open_JTalk_clear(&data);
+	free(buffer);
 }
 
 void openjtalk:: Open_JTalk_initialize(Open_JTalk * open_jtalk)
@@ -197,6 +201,8 @@ void openjtalk::Open_JTalk_set_audio_buff_size(Open_JTalk * open_jtalk, size_t i
 
 int openjtalk::Open_JTalk_synthesis(Open_JTalk * open_jtalk, const char *txt, FILE * wavfp, FILE * logfp)
 {
+	//cout << "STR:" << txt << endl;
+
 	int result = 0;
 	char buff[MAXBUFLEN];
 

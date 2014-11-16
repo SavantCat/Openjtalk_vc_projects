@@ -33,7 +33,6 @@
     "visibility": "",
     "nodedir": "C:\\Users\\K.Hotta\\.node-gyp\\0.10.28",
     "copy_dev_lib": "true",
-    "standalone_static_library": 1,
-    "m32": "true"
+    "standalone_static_library": 1
   }
 }

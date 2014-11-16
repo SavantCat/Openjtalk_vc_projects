@@ -1,13 +1,13 @@
-﻿2014/10/30 19:34:03 にビルドを開始しました。
-     1>ノード 2 上のプロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\njd_set_pronunciation\njd_set_pronunciation.vcxproj" (Rebuild ターゲット)。
+﻿2014/11/02 20:33:12 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\njd_set_pronunciation\njd_set_pronunciation.vcxproj" (Build ターゲット)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D ASCII_HEADER /D CHARSET_SHIFT_JIS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\njd_set_pronunciation.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D ASCII_HEADER /D CHARSET_SHIFT_JIS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\njd_set_pronunciation.c
          njd_set_pronunciation.c
        Lib:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\njd_set_pronunciation.lib" /NOLOGO Debug\njd_set_pronunciation.obj
          njd_set_pronunciation.vcxproj -> G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\njd_set_pronunciation.lib
-     1>プロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\njd_set_pronunciation\njd_set_pronunciation.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
+     1>プロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\njd_set_pronunciation\njd_set_pronunciation.vcxproj" (Build ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:00.48
+経過時間 00:00:00.42

@@ -1,7 +1,7 @@
-﻿2014/10/30 19:34:03 にビルドを開始しました。
-     1>ノード 6 上のプロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\hts_engine_API\hts_engine_API.vcxproj" (Rebuild ターゲット)。
+﻿2014/11/02 20:33:12 にビルドを開始しました。
+     1>ノード 6 上のプロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\hts_engine_API\hts_engine_API.vcxproj" (Build ターゲット)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\HTS_audio.c src\hts_engine.c src\HTS_gstream.c src\HTS_label.c src\HTS_misc.c src\HTS_model.c src\HTS_pstream.c src\HTS_sstream.c src\HTS_vocoder.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\HTS_audio.c src\hts_engine.c src\HTS_gstream.c src\HTS_label.c src\HTS_misc.c src\HTS_model.c src\HTS_pstream.c src\HTS_sstream.c src\HTS_vocoder.c
          HTS_vocoder.c
      1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\hts_engine_api\src\hts_vocoder.c(266): warning C4018: '>' : signed と unsigned の数値を比較しようとしました。
      1>g:\github\openjtalk_vc_projects\openjtalk_vc_projects\hts_engine_api\src\hts_vocoder.c(313): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
@@ -38,8 +38,8 @@
          Debug\HTS_sstream.obj
          Debug\HTS_vocoder.obj
          hts_engine_API.vcxproj -> G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\hts_engine_API.lib
-     1>プロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\hts_engine_API\hts_engine_API.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
+     1>プロジェクト "G:\GitHub\Openjtalk_vc_projects\Openjtalk_vc_projects\hts_engine_API\hts_engine_API.vcxproj" (Build ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:01.06
+経過時間 00:00:00.83

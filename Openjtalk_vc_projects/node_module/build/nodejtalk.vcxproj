@@ -27,6 +27,10 @@
   <PropertyGroup Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
   </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
   <PropertyGroup Label="Locals">
     <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
@@ -51,8 +55,8 @@
     <TargetPath>$(OutDir)\$(ProjectName).node</TargetPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>../..\njd2jpcommon\src;../..\njd_set_long_vowel\src;../..\njd_set_unvoiced_vowel\src;../..\njd_set_accent_type\src;../..\njd_set_accent_phrase\src;../..\njd_set_digit\src;../..\njd_set_pronunciation\src;../..\mecab2njd\src;../..\text2mecab\src;../..\hts_engine_API\src;../..\jpcommon\src;../..\njd\src;../..\mecab\src;$(IncludePath)</IncludePath>
-    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);..\Debug;</LibraryPath>
+    <IncludePath>..\icu\include\;../..\njd2jpcommon\src;../..\njd_set_long_vowel\src;../..\njd_set_unvoiced_vowel\src;../..\njd_set_accent_type\src;../..\njd_set_accent_phrase\src;../..\njd_set_digit\src;../..\njd_set_pronunciation\src;../..\mecab2njd\src;../..\text2mecab\src;../..\hts_engine_API\src;../..\jpcommon\src;../..\njd\src;../..\mecab\src;$(IncludePath)</IncludePath>
+    <LibraryPath>..\icu\lib;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);..\Debug</LibraryPath>
     <TargetExt>.node</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -136,7 +140,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\K.Hotta\.node-gyp\0.10.28\src;C:\Users\K.Hotta\.node-gyp\0.10.28\deps\uv\include;C:\Users\K.Hotta\.node-gyp\0.10.28\deps\v8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\0.10.28\src;..\0.10.28\deps\uv\include;..\0.10.28\deps\v8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
@@ -151,7 +155,7 @@
       </AdditionalOptions>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;"C:\Users\K.Hotta\.node-gyp\0.10.28\ia32\node.lib"</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;"..\0.10.28\ia32\node.lib";icuuc.lib</AdditionalDependencies>
       <OptimizeReferences>true</OptimizeReferences>
       <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
     </Link>

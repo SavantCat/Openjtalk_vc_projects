@@ -1,0 +1,34 @@
+﻿2014/06/09 17:58:19 にビルドを開始しました。
+     1>ノード 4 上のプロジェクト "C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\openjtalk_server\openjtalk_server.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\open_jtalk.c
+         open_jtalk.c
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\openjtalk_server\src\open_jtalk.c(316): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\openjtalk_server\src\open_jtalk.c(328): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\openjtalk_server\src\open_jtalk.c(351): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\openjtalk_server\src\open_jtalk.c(354): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' の宣言を確認してください。
+     1>c:\github\openjtalk_vc_projects\openjtalk_vc_projects\openjtalk_server\src\open_jtalk.c(438): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' の宣言を確認してください。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\openjtalk_server.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\openjtalk_server.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\openjtalk_server.lib" /MACHINE:X86 Debug\open_jtalk.obj
+         C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\hts_engine_API.lib
+         C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\jpcommon.lib
+         C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\mecab2njd.lib
+         C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\mecab.lib
+         C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\njd2jpcommon.lib
+         C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\njd.lib
+         C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\njd_set_accent_phrase.lib
+         C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\njd_set_accent_type.lib
+         C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\njd_set_digit.lib
+         C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\njd_set_long_vowel.lib
+         C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\njd_set_pronunciation.lib
+         C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\njd_set_unvoiced_vowel.lib
+         C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\text2mecab.lib
+         openjtalk_server.vcxproj -> C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\Debug\openjtalk_server.exe
+     1>プロジェクト "C:\github\Openjtalk_vc_projects\Openjtalk_vc_projects\openjtalk_server\openjtalk_server.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:04.35
